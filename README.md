@@ -1,4 +1,7 @@
 ## DAGs Algorithm: Comparison of MMHC, FGS, NOTEARS
+
+Author: Yifan Chen (lavender.fanfan@gmail.com), Yuyao Nie (yuyaonie524@gmail.com)
+
 ### Introduction
 Graphical models, particularly directed acyclic graphs (DAGs) and Bayesian networks, are widely used to impose structure on many challenging problems. The main goal of graphical models for these problems is to examine whether causal or directed relationships exist between variables. However, due to the exponential size of the search space, learning the structure of graphical models is a significant challenge for researchers. Therefore, different algorithms, including constraint-based, score-based, and optimization-based, perform differently in terms of accuracy, robustness, and scalability. Hybrid models like Max-Min Hill-Climbing (MMHC), integrating both constraint-based and score-based methods, achieve accuracy improvement effectively. Score-based methods like Fast Greedy Equivalent Search (FGS), which perform greedy search over equivalence classes, achieve faster scalability and higher consistency. Recently, some optimization methods like NOTEARS, changing DAG learning to a differentiable problem, enable faster gradient-based solutions but need stronger assumptions. 
 
